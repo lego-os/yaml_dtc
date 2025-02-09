@@ -1,0 +1,10 @@
+[package]
+name = "yaml_dtc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = "4"
+pest = "2"
+pest_derive = "2"
+dever = { git = "https://github.com/lego-os/dever.git", branch = "main" }
